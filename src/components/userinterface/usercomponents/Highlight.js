@@ -18,7 +18,7 @@ export default function Highlight(){
         slidesToShow:2,
         slidesToScroll:2,
         autoplay:true,
-        autoplaySpeed:3000,   
+        autoplaySpeed:3000,     
         arrows: false,
     };
     
