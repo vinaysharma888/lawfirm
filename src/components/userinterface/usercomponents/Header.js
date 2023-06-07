@@ -53,7 +53,7 @@ return(<div >
       <div style={{ display: 'flex', flexDirection: 'row', marginLeft: 40, justifyContent: 'start', width: '100%' }}>
             <img src='assets/logo.jpg' style={{ width:100, height: 70, cursor: 'pointer' }} />
             <Typography style={{marginLeft:20,marginTop:15,fontSize:30,color:'#192a56'}}>
-              BEACON LAW FIRM
+              OSCODE LAW FIRM
             </Typography>
 
             <div style={{ display: 'flex', justifyContent:'end', width: 550, marginLeft: 400, marginRight: 10 }}>

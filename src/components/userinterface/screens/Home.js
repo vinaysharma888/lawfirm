@@ -2,7 +2,8 @@ import Header from "../usercomponents/Header";
 import MainSlider from "../usercomponents/MainSlider";
 import Footer from "../usercomponents/Footer";
 import Result from "../usercomponents/Result";
-import Highlight from "../usercomponents/Highlight";
+import Highlight1 from "../usercomponents/Highlight1";
+import Highlight2 from "../usercomponents/Highlight2";
 import { useStyles } from "./HomeCss";
 
 export default function Home(){
@@ -19,8 +20,11 @@ export default function Home(){
                 <MainSlider />
                 
                 <div style={{ width: '90%',alignItems:"center" }}>
-                    <Highlight />
+                    <Highlight1 />
                 </div>
+                <div style={{ width: '90%',alignItems:"center",marginLeft:90 }}>
+                    <Highlight2 />
+                    </div>
             </div>
            
             <div style={{ marginBottom:100}}>
@@ -30,6 +34,7 @@ export default function Home(){
             <Footer />
             </div>
         </div>
+        
     </div>
     )
 }
