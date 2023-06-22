@@ -1,13 +1,14 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import { useStyles } from "../screens/HomeCss";
+import ChatBot from "./ChatBot";
 
 export default function Highlight2(){
    
     var classes = useStyles()
     return(<div className={classes.mainContainer}>
         <div className={classes.box}>
-         <Grid container spacing={2}>
+         <Grid container spacing={2} style={{backgroundColor:'#dff9fb'}}>
                 <Grid item xs={12} className={classes.rowStyle}>
                     
 
@@ -21,6 +22,9 @@ export default function Highlight2(){
                       <div>
                       Welcome to Friends and Associates, a dynamic and client-focused law firm that values the power of collaboration and the strength of relationships. We pride ourselves on building enduring connections with our clients, treating them not only as valued partners but as trusted friends.At Friends and Associates, we believe that legal representation should go beyond just providing sound advice and advocacy. We strive to create a welcoming and supportive environment where our clients feel comfortable sharing their concerns, dreams, and aspirations.
                        We understand that each client's situation is unique, and we are committed to tailoring our services to meet their specific needs.
+                      </div>
+                      <div style={{marginLeft:200,marginTop:30}}>
+                        <ChatBot style={{backgroundColor:'grey'}}/>
                       </div>
                     </Grid>
                     

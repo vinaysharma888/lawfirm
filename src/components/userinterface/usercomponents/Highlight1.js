@@ -12,7 +12,7 @@ export default function Highlight1(){
      
 
    var settings={
-        dots: true,
+        //dots: true,
         infinite: true,
         speed : 500,
         slidesToShow:2,

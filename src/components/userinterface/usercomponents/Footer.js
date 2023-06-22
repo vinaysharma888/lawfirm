@@ -14,25 +14,25 @@ export default function Footer() {
       <div className={classes.mainContainer}>
             <div className={classes.box}>
                 <Grid container spacing={2}>
-                    <Grid item xs={12} className={classes.rowStyle} style={{backgroundColor:'#c7ecee'}}>
+                    <Grid item xs={12} className={classes.rowStyle} style={{backgroundColor:'#0f1e33' }}>
                       <Grid item xs={4} >
                       
             
                       <Box style={{marginLeft:20}}>
-                      <img src="/assets/logo.jpg" style={{margin:3,color:'#c7ecee',width:'150',height:70}} />
+                      <img src="/assets/logo.jpg" style={{margin:3,width:'150',height:70,borderRadius:'50%'}} />
             <div style={{flexDirection:'row',fontSize:30,color:'blue',fontFamily:'fantasy',margin:5}}>
             
-             <u> BEACON LAW FIRM</u>
+             <u> OSCODE LAW FIRM</u>
              </div>
-              <div style={{ fontSize: 14,color:'#2980b9'}}>Beacon Law Group was built on the idea that sophisticated legal services should be convenient, modern and affordable.
+              <div style={{ fontSize: 14,color:'#dff9fb'}}>Beacon Law Group was built on the idea that sophisticated legal services should be convenient, modern and affordable.
                State-of-the-art practice technology allows us to serve our clients efficiently.
                 We put our clients first and achieve tremendous results. Experience how law can be done better.
                 </div>
 
             <div style={{marginTop:20,justifyContent:'space-evenly'}}>
-              <Facebook style={{width:40,height:40,color:"#1e90ff"}} />
-              <Instagram style={{width:40,height:40,color:"#1e90ff"}}/>
-              <LinkedIn style={{width:40,height:40,color:"#1e90ff"}} />
+              <Facebook style={{width:40,height:40,color:'#dff9fb'}} />
+              <Instagram style={{width:40,height:40,color:'#dff9fb'}}/>
+              <LinkedIn style={{width:40,height:40,color:'#dff9fb'}} />
             </div>
           </Box>
                      
@@ -41,28 +41,28 @@ export default function Footer() {
                       <Grid item xs={4}>
                         <Box>
                          
-                      <div style={{color:"blue",fontWeight:700}}> <AttachFileSharpIcon style={{fontSize:18,marginRight:5}}/>SITE MAP</div>
+                      <div style={{fontWeight:700,color:'#dff9fb'}}> <AttachFileSharpIcon style={{fontSize:18,marginRight:5,color:'#dff9fb'}}/>SITE MAP</div>
                      
-                      <div style={{color:'#2980b9',marginBottom:10}}>Quickly navigate our site through our sitemap below!</div>
-                      <div style={{color:"blue"}}>HOME</div>
-                      <div style={{color:"blue"}}>PRACTICE AREAS</div>
-                      <div style={{color:"blue"}}>OUR ATTORNEYS</div>
-                      <div style={{color:"blue"}}>CONTACT US</div>
-                      <div style={{color:"blue"}}>CASE EVALUATION</div>
-                      <div style={{color:"blue"}}>PRIVACY POLICY</div>
+                      <div style={{marginBottom:10,color:'#dff9fb'}}>Quickly navigate our site through our sitemap below!</div>
+                      <div style={{color:'#dff9fb'}}>HOME</div>
+                      <div style={{color:'#dff9fb'}}>PRACTICE AREAS</div>
+                      <div style={{color:'#dff9fb'}}>OUR ATTORNEYS</div>
+                      <div style={{color:'#dff9fb'}}>CONTACT US</div>
+                      <div style={{color:'#dff9fb'}}>CASE EVALUATION</div>
+                      <div style={{color:'#dff9fb'}}>PRIVACY POLICY</div>
                       
                       </Box>
                       </Grid>
 
                       <Grid item xs={4}>
                         <Box style={{marginRight:20}}>
-                      <div style={{color:"blue",fontWeight:700,marginBottom:15}}><HeadsetMicSharpIcon style={{fontSize:18,marginRight:5}}/>GOT A QUESTION?</div>
-                      <div style={{color:"blue",marginBottom:15}}>
-                        <TextField fullWidth label="Your Email Address" variant="outlined" ></TextField>
+                      <div style={{fontWeight:700,marginBottom:15,color:'#dff9fb'}}><HeadsetMicSharpIcon style={{fontSize:18,marginRight:5,color:'#dff9fb'}}/>GOT A QUESTION?</div>
+                      <div style={{marginBottom:15,color:'#dff9fb'}}>
+                        <TextField fullWidth label="Your Email Address" variant="outlined" style={{color:'#dff9fb'}}></TextField>
                       </div>
 
                       <div >
-                        <TextField fullWidth label="Describe Your Case Briefly" variant="outlined"></TextField>
+                        <TextField fullWidth label="Describe Your Case Briefly" variant="outlined" style={{color:'#dff9fb'}}></TextField>
                       </div>
                       </Box>
                       </Grid>

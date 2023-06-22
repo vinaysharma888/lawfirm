@@ -49,10 +49,10 @@ return(<div >
 <Box sx={{ flexGrow: 1 }}>
      
 
-      <AppBar position='relative' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: "left", height:  90 , background: '#FFF', color: '#000', flexWrap: 'wrap' }}>
+      <AppBar position='relative' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: "left", height:  90 , background:'#2980b9' , color: '#000', flexWrap: 'wrap' }}>
       <div style={{ display: 'flex', flexDirection: 'row', marginLeft: 40, justifyContent: 'start', width: '100%' }}>
-            <img src='assets/logo.jpg' style={{ width:100, height: 70, cursor: 'pointer' }} />
-            <Typography style={{marginLeft:20,marginTop:15,fontSize:30,color:'#192a56'}}>
+            <img src='assets/logo.jpg' style={{ width:100, height: 70, cursor: 'pointer',borderRadius:'50%' }} />
+            <Typography style={{marginLeft:20,marginTop:15,fontSize:30}}>
               OSCODE LAW FIRM
             </Typography>
 
@@ -60,7 +60,7 @@ return(<div >
               <Typography style={{marginTop:20,fontWeight:600,fontSize:20,fontFamily:'sans-serif'}}>True Value,True Values</Typography>
             </div>
            
-           <MenuIcon style={{marginTop:20,marginLeft:20,color:'blue',cursor:'pointer'}} onClick={handleClickOpen}/>
+           <MenuIcon style={{marginTop:20,marginLeft:20,color:'#c0392b',cursor:'pointer'}} onClick={handleClickOpen}/>
           </div>
       </AppBar>
     </Box>
@@ -68,18 +68,19 @@ return(<div >
     <div >
       
       <Dialog
+    
         fullScreen
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
        
       >
-       <Grid container spacing={2}>
+       <Grid container spacing={2} style={{backgroundColor:'#dff9fb',width:'100vw',height:'100vh'}}>
        
                 <Grid item xs={12} className={classes.rowStyle}>
                 <CloseIcon style={{marginTop:20,marginLeft:20,cursor:'pointer'}} onClick={handleClose} />
                   <Grid item xs={4} >
-                   <img src="./assets/logo.jpg" style={{width:'40%',height:'40%',marginTop:120,marginLeft:80}} />
+                   <img src="./assets/logo.jpg" style={{width:'40%',marginTop:120,marginLeft:80,borderRadius:"50%"}} />
                   </Grid>
                   <Grid item xs={8}>
                     <div style={{marginTop:160,fontSize:25,marginBottom:30,fontWeight:700,fontFamily:'cursive'}}>
