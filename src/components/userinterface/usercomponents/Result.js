@@ -8,7 +8,7 @@ export default function Result(){
         <div className={classes.box}>
             <Grid container spacing={2} style={{backgroundColor:'#dff9fb'}}>
                 <Grid item xs={12} className={classes.rowStyle}>
-                    <div className={classes.headingStyle } style={{fontSize:40}}>Results</div>
+                    <div className={classes.headingStyle } style={{fontSize:40}}>Result</div>
                     <Grid item xs={3} style={{marginTop:100,fontWeight:600,marginRight:70}}>
                     <div style={{textAlign:'center',marginBottom:80}}>
                         <img src="/assets/r1.png" style={{borderRadius:"50%"}}/>
